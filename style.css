@@ -1,0 +1,15 @@
+* {
+    font-family: 'Asul', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Home page Styling */
+.forms {
+    width: 100%;
+    height: 20%;
+    background-color: goldenrod;
+    text-align: center;
+}
+
+.forms > h1 {
+    padding-top:30px;
+}
