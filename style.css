@@ -13,3 +13,25 @@
 .forms > h1 {
     padding-top:30px;
 }
+
+/* Contact Form Styling */
+.myForm {
+    margin-top: 15px;
+    width: 50%;
+    margin-left: 30px;
+}
+
+.form_container {
+    display: flex;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.form_elements {
+    background-color: blueviolet;
+    width: 100%;
+}
+
+.map {
+    margin-right: 20px;
+}

@@ -13,11 +13,25 @@
         <h1>Welcome to Sisli Nigeria HTML Forms</h1>
         <p>This is a list of Forms, coded by Sixtus Nnamdi. Feel free to make use of the source codes.</p>
     </div>
-    <div>
-        <div class="map"></div>
+    <div class="form_container">
+        <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1982.2405013830255!2d7.548130960579202!3d6.460579688570437!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1044a5a0a70c8901%3A0x47ac017a33b8cdc8!2sSisli+Nigeria+Training+Hub!5e0!3m2!1sen!2sng!4v1564315366989!5m2!1sen!2sng" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
         <div class="form_elements">
-            <form>
-                
+            <form class="myForm" action="/action_page.php">
+                <label>Full Name</label><br>
+                <input name="firstname" type="text" placeholder="Type your name here" required size="70">
+                <br><br>
+                <label>Email</label><br>
+                <input type="email" placeholder="text@email.com" required size="70">
+                <br><br>
+                <label>Phone Number</label><br>
+                <input type="tel" placeholder="+234" required size="70">
+                <br><br>
+                <label>Message</label><br>
+                <textarea required placeholder="Type your message here" rows="4" cols="70"></textarea>
+                <br><br>
+                <button type="submit">Submit</button>
             </form>
         </div>
     </div>
